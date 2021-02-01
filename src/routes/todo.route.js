@@ -1,12 +1,12 @@
 import express from "express";
-const router = express.Router();
+export const router = express.Router();
 import {
   FetchTodos,
   CreateTodo,
   FetchTodoById,
   UpdateTodoById,
   DeleteTodoById,
-} from "./controllers/todo.controller";
+} from "../controllers/main/todo.controller";
 
 router.route("/").get(FetchTodos).post(CreateTodo);
 
