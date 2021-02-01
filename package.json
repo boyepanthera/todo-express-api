@@ -1,0 +1,12 @@
+{
+  "name": "todo-api-express",
+  "version": "1.0.0",
+  "description": "Todo list app api",
+  "main": "server.js",
+  "author": "Olanrewaju A. Olaboye",
+  "license": "yes",
+  "private": false,
+  "dependencies": {
+    "mongoose": "^5.11.14"
+  }
+}
