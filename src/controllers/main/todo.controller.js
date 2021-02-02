@@ -1,7 +1,7 @@
 import {
   handleSuccessResponse,
   handleErrorResponse,
-} from "../utils/response.util";
+} from "../helpers/response.util";
 import {
   validateTodoData,
   validateTodoUpdateData,
