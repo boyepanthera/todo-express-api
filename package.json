@@ -4,12 +4,13 @@
   "description": "Todo list app api",
   "main": "server.js",
   "author": "Olanrewaju A. Olaboye",
-  "license": "yes",
+  "license": "MIT",
   "private": false,
   "scripts": {
     "dev": "nodemon -r esm server.js"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "joi": "^17.3.0",
     "mongoose": "^5.11.14",
